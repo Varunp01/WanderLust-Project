@@ -115,7 +115,7 @@ main()
 
 
 //lisitng route
-app.use("/listings",listingRouter);
+app.use("/",listingRouter);
 
 //reviews
 app.use("/listings/:id/reviews",reviewRouter);
